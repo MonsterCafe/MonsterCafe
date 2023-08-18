@@ -1,0 +1,19 @@
+
+body { background-color: #f7e6ca }
+h1 { font-size: 400%; color: #11065f; font-family: 'Permanent Marker', cursive;  }
+p { font-size: 200%; color: #11065f; font-family: 'Permanent Marker', cursive;  } 
+pre { font-size: 200%; color: #11065f; font-family: 'Permanent Marker', cursive; }
+hr { color:#ddc08f }
+img { border: 10px solid #11065f }
+a:link { color:#542e80 }
+a:hover { color:#11065f}
+@media (max-width: 600px) {
+    section {
+      -webkit-flex-direction: column;
+      flex-direction: column;
+    }
+}
+header { background-color: #ddc08f; padding: 30px; text-align: center; color: #11065f; font-size: 400%; font-family: 'Permanent Marker' , cursive; }
+footer { background-color: #ddc08f; padding: 10px; text-align: center; color: #11065f; font-size: 200%; font-family: 'Permanent Marker', cursive; }
+article { -webkit-flex: 3; -ms-flex: 3; flex: 3; background-color: #f7e6ca; padding: 10px; font-size: 200%; color: #11065f; font-family: 'Permanent Marker', cursive; }
+  
